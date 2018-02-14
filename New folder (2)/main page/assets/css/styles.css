@@ -1,0 +1,44 @@
+div.jumbodiv{
+  background-image:url('../../assets/img/code.png');
+}
+
+div.jumbotron.hero-technology{
+  opacity:0.7;
+}
+
+div.container{
+  text-align:center;
+  padding:5em;
+}
+
+h1{
+  font-size:6em;
+}
+
+p{
+  font-size:180%;
+}
+
+div.hitmeup{
+  text-align:center;
+  background-color:#042B3B;
+  padding-top:5em;
+  padding-bottom:5em;
+}
+
+.icons{
+  font-size:8em;
+}
+
+p#idlinkinsta{
+  font-size:130%;
+}
+
+p.links{
+  font-size:130%;
+}
+
+p#gmailidinfooter{
+  font-size:100%;
+}
+

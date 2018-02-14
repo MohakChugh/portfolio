@@ -1,0 +1,27 @@
+div.jumbotron.mainJumbotron{
+  text-align:center;
+  opacity:0.6;
+  padding-top:10em;
+  padding-bottom:10em;
+}
+
+div#facebookContainer{
+  background-image:url(../../assets/img/facebookpage.png);
+}
+
+div#instagramContainer.container{
+  background-image:url(../../assets/img/Instagram.png);
+}
+
+a.btn.btn-default.btn-lg{
+  background-color:rgb(102,101,101);
+  opacity:0.99;
+}
+
+div#linkedin.jumbotron.mainJumbotron{
+}
+
+div#linkedinContainer.container{
+  background-image:url(../../assets/img/linkedin.png);
+}
+

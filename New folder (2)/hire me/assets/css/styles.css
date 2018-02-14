@@ -1,0 +1,41 @@
+.carousel{
+  position:relative;
+}
+
+@media (max-width:1199px) {
+  .carousel{
+    position:relative;
+  }
+}
+
+i.fa.fa-maxcdn{
+  margin:0.3em;
+}
+
+.topdiv{
+  text-align:center;
+}
+
+#contactdetails{
+  text-align:center;
+}
+
+div.container{
+  max-width:initial;
+  text-align:center;
+  padding-top:3em;
+}
+
+.icon{
+  font-size:3em;
+}
+
+.login-class h1{
+  text-align:center;
+}
+
+h1#Enterdetails{
+  text-align:center;
+  color:rgba(7,7,7,0.28);
+}
+
