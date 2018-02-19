@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singlepage-portfolio</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,300,400">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400">
+    <link rel="stylesheet" href="assets/css/Central-Aligned-Clear-Nav.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Header-Cover01.css">
+    <link rel="stylesheet" href="assets/css/Header-Dark.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/header1.css">
+    <link rel="stylesheet" href="assets/css/header2.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+    <link rel="stylesheet" href="assets/css/nav-bar-scrolling-mloureiro1973.css">
+    <link rel="stylesheet" href="assets/css/nav-bar-scrolling-mloureiro19731.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Fixed-Side.css">
+    <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header id="fullscreen_cover" style="width:100%;height:100vh;">
+        <div id="cover">
+            <div id="cover-img" style="background-image:url(&quot;assets/img/beautiful-landscape-high-resolution-4k-wallpaper-44-3840x2160.jpg&quot;);background-size:cover;">
+                <h1 id="Mohakchugh" style="font-family:Raleway, sans-serif;font-size:75px;margin-top:1px;padding-top:99px;color:rgba(251,250,250,0.59);">Mohak Chugh</h1>
+                <p style="padding-top:18px;font-size:32px;color:rgba(255,255,255,0.68);font-family:Raleway, sans-serif;">Web Developer</p>
+                <div class="container"><script>
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+</script>
+<style>
+    body {
+  text-align: center;
+  color:#fff;
+}
+
+* { color:#fff; text-decoration: none;}
+</style>
+<html>
+    <body>
+        <h1>
+  <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Mohak.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+    <span class="wrap"></span>
+  </a>
+</h1>
+    </body>
+</html></div>
+            </div>
+        </div>
+    </header>
+    <div id="myblock" class="features-boxed" style="background-image:url(&quot;assets/img/laptopbackground.jpg&quot;);background-position:center;background-repeat:no-repeat;background-size:cover;width:100%;height:120vh;">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" style="color:rgba(255,255,255,0.86);margin-top:0px;padding-top:111px;">Things Im good At</h2>
+                <p class="text-center"></p>
+            </div>
+        </div>
+        <div class="row" style="margin-top:35px;">
+            <div class="col-4 offset-4 offset-xl-0"><i class="fa fa-code icons" style="margin-top:14px;"></i>
+                <h1 class="headingtext" style="padding-top:30px;">Coding</h1>
+            </div>
+            <div class="col-4 offset-4 offset-xl-0"><i class="fa fa-diamond icons" style="margin-top:14px;"></i>
+                <h1 class="headingtext" style="padding-top:30px;">Ideas</h1>
+            </div>
+            <div class="col-4 offset-4 offset-xl-0"><i class="fa fa-magic icons" style="margin-top:14px;"></i>
+                <h1 class="headingtext" style="padding-top:30px;">Ui Creation</h1>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+<script>
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+</script>
+<style>
+    body {
+  text-align: center;
+  color:#fff;
+}
+    #customeheading{
+        padding-top: 1em;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+* { color:#fff; text-decoration: none;}
+</style>
+<html>
+    <body>
+        <h1>
+  <a href="" class="typewrite" data-period="2000" data-type='[ "I created my first code in C++ at the age of 16", "I started Web Designing and Web Development at the age of 16", "I learnt Everything by my self" ]'>
+    <span class="wrap"></span>
+  </a>
+</h1>
+    </body>
+</html></div>
+    <div id="contactdiv" style="width:100%;background-image:url(&quot;assets/img/mountain_bg.jpg&quot;);height:150vh;">
+        <h1 id="contactmeheading" style="font-family:'Crimson Text', serif;padding-top:45px;">Contact me</h1>
+        <div class="container">
+            <div class="row" style="padding-top:46px;margin-top:30px;">
+                <div class="col-4 offset-4 offset-xl-0" style="padding-right:0;padding-left:0;"><i class="fa fa-github icons" style="margin-top:21px;"></i>
+                    <h1 style="padding-top:15px;">GitHub</h1>
+                    <p id="githublink">https://github.com/MohakChugh</p>
+                </div>
+                <div class="col-4 offset-4 offset-xl-0" style="padding-right:0;padding-left:0;"><i class="icon ion-social-linkedin-outline icons" style="padding-top:0px;margin-top:0;"></i>
+                    <h1>Linked In</h1>
+                    <p id="linkedlink">https://www.linkedin.com/in/mohak-chugh-37a681141</p>
+                </div>
+                <div class="col-4 offset-4 offset-xl-0" style="padding-right:0;padding-left:0;"><i class="fa fa-instagram icons" style="margin-top:16px;"></i>
+                    <h1 style="padding-top:15px;">Instagram</h1>
+                    <p id="instalink">https://www.instagram.com/mohak.chugh</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div id="myfooter" class="footer-basic" style="background-image:url(&quot;assets/img/beautiful-landscape-high-resolution-4k-wallpaper-44-3840x2160.jpg&quot;);">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/mohak.chugh"><i class="icon ion-social-instagram" style="color:rgb(255,255,255);"></i></a><a href="https://github.com/MohakChugh"><i class="icon ion-social-github" style="color:rgb(249,250,252);"></i></a>
+                <a
+                    href="https://www.linkedin.com/in/mohak-chugh-37a681141"><i class="icon ion-social-linkedin" style="color:rgb(255,255,255);"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item" style="color:rgb(247,248,249);"><a href="#">I love you All</a></li>
+            </ul>
+            <p class="copyright">HandCreated by Me © 2018</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/nav-bar-scrolling-mloureiro1973.js"></script>
+    <script src="assets/js/nav-bar-scrolling-mloureiro19731.js"></script>
+</body>
+
+</html>
